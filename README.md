@@ -70,7 +70,13 @@ TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN_HERE
    pip install -r requirements.txt
    ```
 3. Create the `.env` file as described above.
-4. Run the bot:
+4. Initialize the database:
+   
+    ```
+   python data.py
+   ```
+
+5. Run the bot:
 
    ```
    python main.py
